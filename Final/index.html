@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Hello, World! | Foo</title>
+	</head>
+	<body>
+		<?php
+
+		echo "<table>";
+			echo "<tr>";
+				echo "<th>Number</th>";
+				echo "<th>Symbol</th>";
+				echo "<th>Name</th>";
+				echo "<th>Price</th>";
+				echo "<th>Change</th>";
+				echo "<th>Price Change</th>";
+				echo "<th>Volume</th>";
+			echo "</tr>";
+		$link = mysqli_connect("127.0.0.1", "root", "larry", "stocks");
+		
+		$sql = "SELECT symbol, name, price, chng, pchng, volum FROM 2017_11_28_18_19_38";
+		
+		$result = $link->query($sql);
+
+		while($row = $result->fetch_assoc()) {
+			echo "<tr>";
+			echo "<td>" . $row["symbol"] . " " . $row["name"]. " ".$row["chng"]. " ". $row["pchng"]. " " . $row["pchng"]. " " . $row["volum"]. "</td>";
+			echo "</tr>";
+		}
+		echo "</table>";
+		$link->close();	
+		?>
+	</body>
+</html>

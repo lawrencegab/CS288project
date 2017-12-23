@@ -1,0 +1,382 @@
+Last login: Tue Nov 28 17:45:21 on ttys000
+-bash: /Users/lawrencegabriel/.bash_profile: line 10: unexpected EOF while looking for matching `"'
+-bash: /Users/lawrencegabriel/.bash_profile: line 11: syntax error: unexpected end of file
+lawrences-mbp:~ lawrencegabriel$ cd desktop
+lawrences-mbp:desktop lawrencegabriel$ cd cs288
+lawrences-mbp:cs288 lawrencegabriel$ ls
+HW9LARRY		cs288 old hw (copy)	problem.js
+Strtok			hello.sh		skeleton.c
+Strtok.c		help.c			test
+USB DISK		homework6.c		test.js
+count.sh		main.c			test.php
+creating-tree.pdf	problem
+lawrences-mbp:cs288 lawrencegabriel$ cd cs288
+-bash: cd: cs288: No such file or directory
+lawrences-mbp:cs288 lawrencegabriel$ cd cs288\ old\ hw\ \(copy\)/
+lawrences-mbp:cs288 old hw (copy) lawrencegabriel$ ls
+2013-fall-test2-with-answers.pdf	hw10.tgz
+2013-fall-test3-with-answers.pdf	hw2
+2014-spring-test2-with-answers.pdf	hw2.tgz
+CS288 - Exam II.pdf			hw3
+CS_288_E_F13.pdf			hw3.tgz
+cs288-2011sp-exam3.pdf			hw4
+cs288-2012f-exam1.pdf			hw4.tgz
+cs288-2012f-exam2-with-answers.pdf	hw5
+cs288-2012f-exam2.pdf			hw5 2
+cs288-2013sp-exam1.pdf			hw5.tgz
+cs288-2013sp-exam2.pdf			hw6
+cs288-2013sp-exam2_1.pdf		hw6.tgz
+cs288-exam2-ans.pdf			hw7
+cs288-exam3-tjh.pdf			hw7.tgz
+exam 1 cs 288 9-27-2013.pdf		hw8
+exam 1 cs288 2-21-2013.pdf		hw8.tgz
+hw1					hw9
+hw1.tgz					hw9.tgz
+hw10
+lawrences-mbp:cs288 old hw (copy) lawrencegabriel$ cd hw9
+lawrences-mbp:hw9 lawrencegabriel$ ls
+2016_11_30_14_24_00 2.html
+2016_11_30_14_24_00 2.xhtml
+2016_11_30_14_24_00.html
+2016_11_30_14_24_00.xhtml
+Screenshot from 2016-12-07 16-11-26 2.png
+Screenshot from 2016-12-07 16-11-26.png
+Screenshot from 2016-12-07 16-11-51 2.png
+Screenshot from 2016-12-07 16-11-51.png
+hw9 2.php
+hw9 2.py
+hw9 2.sh
+hw9.php
+hw9.py
+hw9.sh
+lawrences-mbp:hw9 lawrencegabriel$ ./hw9.sh
+-bash: ./hw9.sh: Permission denied
+lawrences-mbp:hw9 lawrencegabriel$ cd .
+lawrences-mbp:hw9 lawrencegabriel$ ls
+2016_11_30_14_24_00 2.html
+2016_11_30_14_24_00 2.xhtml
+2016_11_30_14_24_00.html
+2016_11_30_14_24_00.xhtml
+Screenshot from 2016-12-07 16-11-26 2.png
+Screenshot from 2016-12-07 16-11-26.png
+Screenshot from 2016-12-07 16-11-51 2.png
+Screenshot from 2016-12-07 16-11-51.png
+hw9 2.php
+hw9 2.py
+hw9 2.sh
+hw9.php
+hw9.py
+hw9.sh
+lawrences-mbp:hw9 lawrencegabriel$ cd .
+lawrences-mbp:hw9 lawrencegabriel$ cd -
+/Users/lawrencegabriel/desktop/cs288/cs288 old hw (copy)/hw9
+lawrences-mbp:hw9 lawrencegabriel$ ls
+2016_11_30_14_24_00 2.html
+2016_11_30_14_24_00 2.xhtml
+2016_11_30_14_24_00.html
+2016_11_30_14_24_00.xhtml
+Screenshot from 2016-12-07 16-11-26 2.png
+Screenshot from 2016-12-07 16-11-26.png
+Screenshot from 2016-12-07 16-11-51 2.png
+Screenshot from 2016-12-07 16-11-51.png
+hw9 2.php
+hw9 2.py
+hw9 2.sh
+hw9.php
+hw9.py
+hw9.sh
+lawrences-mbp:hw9 lawrencegabriel$ cd
+lawrences-mbp:~ lawrencegabriel$ cd desktop
+lawrences-mbp:desktop lawrencegabriel$ cd cs288
+lawrences-mbp:cs288 lawrencegabriel$ ls
+HW9LARRY		cs288 old hw (copy)	problem.js
+Strtok			hello.sh		skeleton.c
+Strtok.c		help.c			test
+USB DISK		homework6.c		test.js
+count.sh		main.c			test.php
+creating-tree.pdf	problem
+lawrences-mbp:cs288 lawrencegabriel$ cd HW9LARRY
+lawrences-mbp:HW9LARRY lawrencegabriel$ LS
+2017_11_28_18_19_38.html	hw9.sh
+hw9.py				tagsoup-1.2.1.jar
+lawrences-mbp:HW9LARRY lawrencegabriel$ ./hw9.sh
+--2017-11-28 18:56:40--  http://online.wsj.com/mdc/public/page/2_3021-activnyse-actives.html
+Resolving online.wsj.com... 205.203.140.65, 205.203.140.1
+Connecting to online.wsj.com|205.203.140.65|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://www.wsj.com/mdc/public/page/2_3021-activnyse-actives.html [following]
+--2017-11-28 18:56:40--  http://www.wsj.com/mdc/public/page/2_3021-activnyse-actives.html
+Resolving www.wsj.com... 52.84.27.119, 52.84.27.206, 52.84.27.155, ...
+Connecting to www.wsj.com|52.84.27.119|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘2017_11_28_18_56_40.html’
+
+2017_11_28_18_56_40     [ <=>                ] 113.59K  --.-KB/s    in 0.01s   
+
+2017-11-28 18:56:40 (7.68 MB/s) - ‘2017_11_28_18_56_40.html’ saved [116314]
+
+No Java runtime present, requesting install.
+--2017-11-28 18:57:40--  http://online.wsj.com/mdc/public/page/2_3021-activnyse-actives.html
+Resolving online.wsj.com... 205.203.140.65, 205.203.140.1
+Connecting to online.wsj.com|205.203.140.65|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://www.wsj.com/mdc/public/page/2_3021-activnyse-actives.html [following]
+--2017-11-28 18:57:40--  http://www.wsj.com/mdc/public/page/2_3021-activnyse-actives.html
+Resolving www.wsj.com... 52.84.27.130, 52.84.27.155, 52.84.27.3, ...
+Connecting to www.wsj.com|52.84.27.130|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘2017_11_28_18_57_40.html’
+
+2017_11_28_18_57_40     [  <=>               ] 113.59K   424KB/s    in 0.3s    
+
+2017-11-28 18:57:40 (424 KB/s) - ‘2017_11_28_18_57_40.html’ saved [116314]
+
+No Java runtime present, requesting install.
+--2017-11-28 18:58:40--  http://online.wsj.com/mdc/public/page/2_3021-activnyse-actives.html
+Resolving online.wsj.com... 205.203.140.65, 205.203.140.1
+Connecting to online.wsj.com|205.203.140.65|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://www.wsj.com/mdc/public/page/2_3021-activnyse-actives.html [following]
+--2017-11-28 18:58:41--  http://www.wsj.com/mdc/public/page/2_3021-activnyse-actives.html
+Resolving www.wsj.com... 52.84.27.3, 52.84.27.119, 52.84.27.155, ...
+Connecting to www.wsj.com|52.84.27.3|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘2017_11_28_18_58_40.html’
+
+2017_11_28_18_58_40     [ <=>                ] 113.50K  --.-KB/s    in 0.02s   
+
+2017-11-28 18:58:41 (4.99 MB/s) - ‘2017_11_28_18_58_40.html’ saved [116219]
+
+Error: Unable to access jarfile tagsoup-1.2.jar
+^C
+lawrences-mbp:HW9LARRY lawrencegabriel$ ./hw9.sh
+--2017-11-28 18:58:53--  http://online.wsj.com/mdc/public/page/2_3021-activnyse-actives.html
+Resolving online.wsj.com... 205.203.140.65, 205.203.140.1
+Connecting to online.wsj.com|205.203.140.65|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://www.wsj.com/mdc/public/page/2_3021-activnyse-actives.html [following]
+--2017-11-28 18:58:53--  http://www.wsj.com/mdc/public/page/2_3021-activnyse-actives.html
+Resolving www.wsj.com... 52.84.27.3, 52.84.27.119, 52.84.27.155, ...
+Connecting to www.wsj.com|52.84.27.3|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘2017_11_28_18_58_53.html’
+
+2017_11_28_18_58_53     [ <=>                ] 113.59K  --.-KB/s    in 0.03s   
+
+2017-11-28 18:58:54 (3.76 MB/s) - ‘2017_11_28_18_58_53.html’ saved [116314]
+
+Error: Unable to access jarfile tagsoup-1.2.jar
+^C
+lawrences-mbp:HW9LARRY lawrencegabriel$ ./hw9.sh
+--2017-11-28 18:59:49--  http://online.wsj.com/mdc/public/page/2_3021-activnyse-actives.html
+Resolving online.wsj.com... 205.203.140.65, 205.203.140.1
+Connecting to online.wsj.com|205.203.140.65|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: http://www.wsj.com/mdc/public/page/2_3021-activnyse-actives.html [following]
+--2017-11-28 18:59:49--  http://www.wsj.com/mdc/public/page/2_3021-activnyse-actives.html
+Resolving www.wsj.com... 52.84.27.119, 52.84.27.138, 52.84.27.205, ...
+Connecting to www.wsj.com|52.84.27.119|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘2017_11_28_18_59_49.html’
+
+2017_11_28_18_59_49     [ <=>                ] 113.50K  --.-KB/s    in 0.03s   
+
+2017-11-28 18:59:50 (4.36 MB/s) - ‘2017_11_28_18_59_49.html’ saved [116219]
+
+src: 2017_11_28_18_59_49.html dst: 2017_11_28_18_59_49.xhtml
+^C
+lawrences-mbp:HW9LARRY lawrencegabriel$ ls
+2017_11_28_18_19_38.html	2017_11_28_18_59_49.html
+2017_11_28_18_56_40.html	2017_11_28_18_59_49.xhtml
+2017_11_28_18_57_40.html	hw9.py
+2017_11_28_18_58_40.html	hw9.sh
+2017_11_28_18_58_53.html	tagsoup-1.2.1.jar
+lawrences-mbp:HW9LARRY lawrencegabriel$ ls
+2017_11_28_18_19_38.html	2017_11_28_18_59_49.html
+2017_11_28_18_56_40.html	2017_11_28_18_59_49.xhtml
+2017_11_28_18_57_40.html	hw9.py
+2017_11_28_18_58_40.html	hw9.sh
+2017_11_28_18_58_53.html	tagsoup-1.2.1.jar
+lawrences-mbp:HW9LARRY lawrencegabriel$ 
+lawrences-mbp:HW9LARRY lawrencegabriel$ 
+lawrences-mbp:HW9LARRY lawrencegabriel$ 
+lawrences-mbp:HW9LARRY lawrencegabriel$ python hw9.p 2017_11_28_18_59_49.xhtml
+python: can't open file 'hw9.p': [Errno 2] No such file or directory
+lawrences-mbp:HW9LARRY lawrencegabriel$ python hw9.py 2017_11_28_18_59_49.xhtml
+  File "hw9.py", line 65
+    def main():
+      ^
+IndentationError: expected an indented block
+lawrences-mbp:HW9LARRY lawrencegabriel$ python hw9.py 2017_11_28_18_59_49.xhtml
+  File "hw9.py", line 65
+    def main():
+      ^
+IndentationError: expected an indented block
+lawrences-mbp:HW9LARRY lawrencegabriel$ clear
+
+lawrences-mbp:HW9LARRY lawrencegabriel$ python hw9.py 2017_11_28_18_59_49.xhtml
+  File "hw9.py", line 65
+    def main():
+      ^
+IndentationError: expected an indented block
+lawrences-mbp:HW9LARRY lawrencegabriel$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lawrences-mbp:HW9LARRY lawrencegabriel$ python hw9.py 2017_11_28_18_59_49.xhtml
+  File "hw9.py", line 65
+    def main():
+      ^
+IndentationError: expected an indented block
+lawrences-mbp:HW9LARRY lawrencegabriel$ python hw9.py 2017_11_28_18_59_49.xhtml
+  File "hw9.py", line 65
+    def main():
+      ^
+IndentationError: expected an indented block
+lawrences-mbp:HW9LARRY lawrencegabriel$ python hw9.py 2017_11_28_18_59_49.xhtml
+Traceback (most recent call last):
+  File "hw9.py", line 5, in <module>
+    import libxml2
+ImportError: No module named libxml2
+lawrences-mbp:HW9LARRY lawrencegabriel$ python hw9.py 2017_11_28_18_59_49.xhtml
+Traceback (most recent call last):
+  File "hw9.py", line 5, in <module>
+    import libxml2
+ImportError: No module named libxml2
+lawrences-mbp:HW9LARRY lawrencegabriel$ clear
+
+
+
+lawrences-mbp:HW9LARRY lawrencegabriel$ python hw9.py 2017_11_28_18_59_49.xhtml
+Traceback (most recent call last):
+  File "hw9.py", line 5, in <module>
+    import libxml2
+ImportError: No module named libxml2
+lawrences-mbp:HW9LARRY lawrencegabriel$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lawrences-mbp:HW9LARRY lawrencegabriel$ python hw9.py 2017_11_28_18_59_49.xhtml
+Traceback (most recent call last):
+  File "hw9.py", line 5, in <module>
+    import libxml2
+ImportError: No module named libxml2
+lawrences-mbp:HW9LARRY lawrencegabriel$ from xml.dom.minidom import parse, parseString
+from: can't read /var/mail/xml.dom.minidom
+lawrences-mbp:HW9LARRY lawrencegabriel$ cd
+lawrences-mbp:~ lawrencegabriel$ from xml.dom.minidom import parse, parseString
+from: can't read /var/mail/xml.dom.minidom
+lawrences-mbp:~ lawrencegabriel$ cd desktop
+lawrences-mbp:desktop lawrencegabriel$ cd cs288
+lawrences-mbp:cs288 lawrencegabriel$ ls
+HW9LARRY		cs288 old hw (copy)	problem.js
+Strtok			hello.sh		skeleton.c
+Strtok.c		help.c			test
+USB DISK		homework6.c		test.js
+count.sh		main.c			test.php
+creating-tree.pdf	problem
+lawrences-mbp:cs288 lawrencegabriel$ cd HW9LARRY
+lawrences-mbp:HW9LARRY lawrencegabriel$ python3
+Python 3.6.2 (v3.6.2:5fd33b5926, Jul 16 2017, 20:11:06) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from xml.dom.minidom import parse, parseString
+>>> dom = parse('2017_11_28_18_59_49.xhtml')
+>>> dom.nodeType
+9
+>>> dom.childNodes
+[<DOM Element: html at 0x1040eef20>]
+>>> first = dom[0]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'Document' object does not support indexing
+>>> first = dom.childNodes[0]
+>>> first
+<DOM Element: html at 0x1040eef20>
+>>> first.nodeType
+1
+>>> first.childNodes
+[<DOM Element: head at 0x10464d6d0>, <DOM Element: body at 0x1046ab638>]
+>>> len(first)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: object of type 'Element' has no len()
+>>> first = first[1]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'Element' object does not support indexing
+>>> first = first.childNodes[1]
+>>> first
+<DOM Element: body at 0x1046ab638>
+>>> first.childNodes
+[<DOM Text node "'\n'">, <DOM Element: a at 0x1046ab6d0>, <DOM Text node "'\n\n'">, <DOM Element: div at 0x1046ab768>, <DOM Text node "'\n\n'">, <DOM Element: div at 0x104726c28>, <DOM Text node "'\n\n\n'">, <DOM Element: div at 0x104726f20>, <DOM Text node "'\n\n\n'">, <DOM Element: div at 0x10472f178>, <DOM Text node "'\n\n\n\n\n\n\n\n\n\n'...">, <DOM Element: script at 0x10493a048>, <DOM Text node "'\n\n\n\n\n\n\n\n\n\n'">, <DOM Element: script at 0x10493a0e0>, <DOM Text node "'\n\n\n\n'">, <DOM Element: script at 0x10493a178>, <DOM Text node "'\n\n\n\n'">, <DOM Element: script at 0x10493a210>, <DOM Text node "'\n\n\n\n\n\n\t  \t'...">, <DOM Element: script at 0x10493a2a8>, <DOM Text node "'\n\n'">, <DOM Element: script at 0x10493a340>, <DOM Text node "'\n\n\n'">, <DOM Element: script at 0x10493a3d8>, <DOM Text node "'\n\n\n'">, <DOM Element: script at 0x10493a470>, <DOM Text node "'\n\n\n\n\n'">, <DOM Element: script at 0x10493a508>, <DOM Text node "'\n'">, <DOM Element: script at 0x10493a5a0>, <DOM Text node "'\n\n\n\n'">, <DOM Element: div at 0x10493a638>, <DOM Text node "'\n'">, <DOM Element: div at 0x10493a6d0>, <DOM Text node "'\n\n\n\n\n'">, <DOM Element: div at 0x10493aa60>, <DOM Text node "'\n'">, <DOM Element: div at 0x10493aaf8>, <DOM Text node "'\n\n'">, <DOM Element: div at 0x10493ab90>, <DOM Text node "'\n'">, <DOM Element: div at 0x10493ac28>, <DOM Text node "'\n\n'">, <DOM Element: script at 0x10493acc0>, <DOM Text node "'\n\n\n\n\n'">, <DOM Element: script at 0x10493ad58>, <DOM Text node "'\n'">, <DOM Element: script at 0x10493adf0>, <DOM Text node "'\n\n'">, <DOM Element: script at 0x10493ae88>, <DOM Text node "'\n\n\n\n\n\n    '...">]
+>>> len(first.childNodes)
+51
+>>> 
+>>> dom = parse('2017_11_28_18_59_49.xhtml')
+>>> dom.nodeType
+9
+>>> dom.childNodes
+[<DOM Element: html at 0x10493af20>]
+>>> firstlevel = dom.childNodes[0]
+>>> firstlevel.nodeType
+1
+>>> firstlevel.childNodes
+[<DOM Element: head at 0x104944048>, <DOM Element: body at 0x10494f048>]
+>>> bodylevel = firstlevel.childNodes[1]
+>>> bodylevel.childNodes
+[<DOM Text node "'\n'">, <DOM Element: a at 0x10494f0e0>, <DOM Text node "'\n\n'">, <DOM Element: div at 0x10494f178>, <DOM Text node "'\n\n'">, <DOM Element: div at 0x104982638>, <DOM Text node "'\n\n\n'">, <DOM Element: div at 0x104982930>, <DOM Text node "'\n\n\n'">, <DOM Element: div at 0x104982af8>, <DOM Text node "'\n\n\n\n\n\n\n\n\n\n'...">, <DOM Element: script at 0x104b8a9c8>, <DOM Text node "'\n\n\n\n\n\n\n\n\n\n'">, <DOM Element: script at 0x104b8aa60>, <DOM Text node "'\n\n\n\n'">, <DOM Element: script at 0x104b8aaf8>, <DOM Text node "'\n\n\n\n'">, <DOM Element: script at 0x104b8ab90>, <DOM Text node "'\n\n\n\n\n\n\t  \t'...">, <DOM Element: script at 0x104b8ac28>, <DOM Text node "'\n\n'">, <DOM Element: script at 0x104b8acc0>, <DOM Text node "'\n\n\n'">, <DOM Element: script at 0x104b8ad58>, <DOM Text node "'\n\n\n'">, <DOM Element: script at 0x104b8adf0>, <DOM Text node "'\n\n\n\n\n'">, <DOM Element: script at 0x104b8ae88>, <DOM Text node "'\n'">, <DOM Element: script at 0x104b8af20>, <DOM Text node "'\n\n\n\n'">, <DOM Element: div at 0x104b93048>, <DOM Text node "'\n'">, <DOM Element: div at 0x104b930e0>, <DOM Text node "'\n\n\n\n\n'">, <DOM Element: div at 0x104b93470>, <DOM Text node "'\n'">, <DOM Element: div at 0x104b93508>, <DOM Text node "'\n\n'">, <DOM Element: div at 0x104b935a0>, <DOM Text node "'\n'">, <DOM Element: div at 0x104b93638>, <DOM Text node "'\n\n'">, <DOM Element: script at 0x104b936d0>, <DOM Text node "'\n\n\n\n\n'">, <DOM Element: script at 0x104b93768>, <DOM Text node "'\n'">, <DOM Element: script at 0x104b93800>, <DOM Text node "'\n\n'">, <DOM Element: script at 0x104b93898>, <DOM Text node "'\n\n\n\n\n\n    '...">]
+>>> tablelevel = bodylevel.childNodes[9]
+>>> tablelevel.childNodes
+[<DOM Text node "'\n\n    '">, <DOM Element: div at 0x104982b90>, <DOM Text node "'\n\n\n'">, <DOM Element: div at 0x104982e88>, <DOM Text node "'\n\n'">, <DOM Element: div at 0x10498d210>, <DOM Text node "'\n\n'">, <DOM Element: div at 0x104b532a8>, <DOM Text node "'\n\n'">, <DOM Element: div at 0x104b612a8>, <DOM Text node "'\n'">]
+>>> stocklevel = tablelevel.childNodes[5]
+>>> stocklevel.childNodes
+[<DOM Text node "'\n\n\n\n\t'">, <DOM Element: script at 0x10498d2a8>, <DOM Text node "'\n\n\n\n\n\n\n\n\n\n'...">, <DOM Element: script at 0x10498d340>, <DOM Text node "'\n'">, <DOM Element: div at 0x10498d3d8>, <DOM Text node "'\n\n\n\n'">]
+>>> stocklevel2 = stocklevel.childNodes[5]
+>>> stocklevel2.childNodes
+[<DOM Text node "'\n'">, <DOM Element: div at 0x10498d470>, <DOM Text node "'\n'">, <DOM Element: div at 0x10498d800>, <DOM Text node "'\n'">, <DOM Element: table at 0x10498de88>, <DOM Text node "'\n'">, <DOM Element: div at 0x104b530e0>, <DOM Text node "'\n'">, <DOM Element: div at 0x104b53178>, <DOM Text node "'\n'">, <DOM Element: div at 0x104b53210>, <DOM Text node "'\n'">]
+>>> table = stocklevel2[5]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'Element' object does not support indexing
+>>> table = stocklevel2.childNodes[5]
+>>> table.childNodes
+[<DOM Element: tr at 0x10498df20>, <DOM Element: tr at 0x104998470>, <DOM Element: tr at 0x104998930>, <DOM Element: tr at 0x104998df0>, <DOM Element: tr at 0x1049a6340>, <DOM Element: tr at 0x1049a6800>, <DOM Element: tr at 0x1049a6cc0>, <DOM Element: tr at 0x1049b5210>, <DOM Element: tr at 0x1049b56d0>, <DOM Element: tr at 0x1049b5b90>, <DOM Element: tr at 0x1049c30e0>, <DOM Element: tr at 0x1049c35a0>, <DOM Element: tr at 0x1049c3a60>, <DOM Element: tr at 0x1049c3f20>, <DOM Element: tr at 0x1049d1470>, <DOM Element: tr at 0x1049d1930>, <DOM Element: tr at 0x1049d1df0>, <DOM Element: tr at 0x1049e0340>, <DOM Element: tr at 0x1049e0800>, <DOM Element: tr at 0x1049e0cc0>, <DOM Element: tr at 0x1049ed210>, <DOM Element: tr at 0x1049ed6d0>, <DOM Element: tr at 0x1049edb90>, <DOM Element: tr at 0x1049fc0e0>, <DOM Element: tr at 0x1049fc5a0>, <DOM Element: tr at 0x1049fca60>, <DOM Element: tr at 0x1049fcf20>, <DOM Element: tr at 0x104a0c470>, <DOM Element: tr at 0x104a0c930>, <DOM Element: tr at 0x104a0cdf0>, <DOM Element: tr at 0x104a1a340>, <DOM Element: tr at 0x104a1a800>, <DOM Element: tr at 0x104a1acc0>, <DOM Element: tr at 0x104a29210>, <DOM Element: tr at 0x104a296d0>, <DOM Element: tr at 0x104a29b90>, <DOM Element: tr at 0x104a350e0>, <DOM Element: tr at 0x104a355a0>, <DOM Element: tr at 0x104a35a60>, <DOM Element: tr at 0x104a35f20>, <DOM Element: tr at 0x104a43470>, <DOM Element: tr at 0x104a43930>, <DOM Element: tr at 0x104a43df0>, <DOM Element: tr at 0x104a53340>, <DOM Element: tr at 0x104a53800>, <DOM Element: tr at 0x104a53cc0>, <DOM Element: tr at 0x104a61210>, <DOM Element: tr at 0x104a616d0>, <DOM Element: tr at 0x104a61b90>, <DOM Element: tr at 0x104a6f0e0>, <DOM Element: tr at 0x104a6f5a0>, <DOM Element: tr at 0x104a6fa60>, <DOM Element: tr at 0x104a6ff20>, <DOM Element: tr at 0x104a7d470>, <DOM Element: tr at 0x104a7d930>, <DOM Element: tr at 0x104a7ddf0>, <DOM Element: tr at 0x104a8b340>, <DOM Element: tr at 0x104a8b800>, <DOM Element: tr at 0x104a8bcc0>, <DOM Element: tr at 0x104a9b210>, <DOM Element: tr at 0x104a9b6d0>, <DOM Element: tr at 0x104a9bb90>, <DOM Element: tr at 0x104aa80e0>, <DOM Element: tr at 0x104aa85a0>, <DOM Element: tr at 0x104aa8a60>, <DOM Element: tr at 0x104aa8f20>, <DOM Element: tr at 0x104ab5470>, <DOM Element: tr at 0x104ab5930>, <DOM Element: tr at 0x104ab5df0>, <DOM Element: tr at 0x104ac3340>, <DOM Element: tr at 0x104ac3800>, <DOM Element: tr at 0x104ac3cc0>, <DOM Element: tr at 0x104ad3210>, <DOM Element: tr at 0x104ad36d0>, <DOM Element: tr at 0x104ad3b90>, <DOM Element: tr at 0x104ae10e0>, <DOM Element: tr at 0x104ae15a0>, <DOM Element: tr at 0x104ae1a60>, <DOM Element: tr at 0x104ae1f20>, <DOM Element: tr at 0x104aef470>, <DOM Element: tr at 0x104aef930>, <DOM Element: tr at 0x104aefdf0>, <DOM Element: tr at 0x104afe340>, <DOM Element: tr at 0x104afe800>, <DOM Element: tr at 0x104afecc0>, <DOM Element: tr at 0x104b0c210>, <DOM Element: tr at 0x104b0c6d0>, <DOM Element: tr at 0x104b0cb90>, <DOM Element: tr at 0x104b1a0e0>, <DOM Element: tr at 0x104b1a5a0>, <DOM Element: tr at 0x104b1aa60>, <DOM Element: tr at 0x104b1af20>, <DOM Element: tr at 0x104b28470>, <DOM Element: tr at 0x104b28930>, <DOM Element: tr at 0x104b28df0>, <DOM Element: tr at 0x104b36340>, <DOM Element: tr at 0x104b36800>, <DOM Element: tr at 0x104b36cc0>, <DOM Element: tr at 0x104b45210>, <DOM Element: tr at 0x104b456d0>, <DOM Element: tr at 0x104b45b90>]
+>>> len(table.childNodes)
+101
+>>> 
